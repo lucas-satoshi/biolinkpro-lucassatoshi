@@ -1,0 +1,47 @@
+/* Variáveis de Cores e Tipografia */
+:root {
+    --bg-color: #f4f4f5;
+    --text-main: #18181b;
+    --text-muted: #52525b;
+    --btn-bg: #ffffff;
+    --btn-border: #e4e4e7;
+    --btn-hover: #18181b;
+    --btn-text-hover: #ffffff;
+    --whatsapp-bg: #25D366;
+    --whatsapp-hover: #1da851;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+/* Identidade do Cabeçalho */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid var(--btn-border);
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    max-width: 400px;
+}
